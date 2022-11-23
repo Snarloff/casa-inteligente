@@ -12,6 +12,7 @@
 #include "SinricPro.h"
 #include "SinricProSwitch.h"
 #include "SSD1306Wire.h"
+#include <analogWrite.h>
 
 #define WIFI_SSID ""
 #define WIFI_PASS ""

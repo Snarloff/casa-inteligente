@@ -1,3 +1,4 @@
+
 ## Projeto de Casa Inteligente com ESP32
 ### Descrição:
 
@@ -24,3 +25,8 @@ Para finalizar, algumas informações abaixo:
  - SinricPro.h
  - SinricProSwitch.h
  - SSD1306Wire.h
+ 
+
+![Imagem do sistema pronto](https://i.imgur.com/dBPvS1R.jpg)
+
+![gif](https://media.giphy.com/media/sOpYs0fNMMMSlWarwM/giphy-downsized-large.gif)

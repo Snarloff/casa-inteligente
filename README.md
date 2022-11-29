@@ -26,7 +26,20 @@ O objetivo do projeto é integrar um sistema de iluminação via LEDs através d
 
 Foram utilizadas 3 lâmpadas de **LED** nas cores verde, amarelo e azul, 3 **resistores** equiparentes, **ESP32 WiFi**, **Display Oled Ssd1306**, uma **protoboard** de 400 pinos e cabos **jumpers**.
 
-Além disso, para a conexão com a Alexa App, foi utilizada um serviço de controle de dispositivos IOT, o [Sinric Pro](https://sinric.pro/pt-index.html).
+Além disso, para a conexão com a Alexa App, foi utilizada um serviço de controle de dispositivos IOT, o [Sinric Pro](https://sinric.pro/pt-index.html), e o protocolo MQTT.
+
+### Como utilizar (resumo)
+
+Primeiramente, instale o software de desenvolvimento **Arduino IDE**. Dentro dele, configure a placa **ESP32** acrescentando a URL adicional `[https://dl.espressif.com/dl/package_esp32_index.json](https://dl.espressif.com/dl/package_esp32_index.json)` na configuração. Após selecionar a opção ESP32 Dev Module, instale as bibliotecas citadas na aba conclusão em `incluir biblioteca`.
+
+Entre na plataforma **Sinric Pro**, crie sua conta e  adicione os dispositivos de acordo com os cômodos abaixos no formato SWITCH e pegue as **Keys**. No código, você irá ver partes faltando nas primeiras linhas, configure de acordo com sua configuração do Sinric e de Wi-Fi.
+
+Observe no cabeçalho do código os pinos necessários e reserve-os para a utilização do código.
+Já no aplicativo da Alexa, configure um novo plugue instalando o Sinric Pro. Ao conectar sua conta, você irá observar os Switchs, coloque-os como favoritos e configure novas rotinas para ativá-los. Para isso, crie a rotina e em *Adicionar ação*, selecione **Casa Inteligente**, selecione o plugue e coloque-o para ativar ou desativar, de acordo com sua necessidade.
+
+No aplicativo do MQTT, clique no mais e configure com o IP e a Porta. Após isso, abra-o e clique novamente no mais e adicione um botão. Esse botão terá uma opção chamada **tópico**, e é lá que você irá colocar os tópicos citados lá em cima. Além disso, no on e off, coloque os valores **on** e **off** ao invés de 0 e 1.
+
+Preste bem atenção! Esse é apenas um mini-tutorial avançado para a utilização do código, ao caso do não compreendimento total ou parcial do mesmo, busque ajuda externa em sites complementares.
 
 ### Conclusão
 

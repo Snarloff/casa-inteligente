@@ -63,3 +63,5 @@ Para finalizar, algumas informações abaixo:
 ![Imagem do sistema pronto](https://i.imgur.com/dBPvS1R.jpg)
 
 ![gif](https://media.giphy.com/media/sOpYs0fNMMMSlWarwM/giphy-downsized-large.gif)
+
+Simulação (BETA): https://wokwi.com/projects/349702844559917651

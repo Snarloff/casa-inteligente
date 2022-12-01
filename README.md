@@ -1,6 +1,6 @@
 
 
-## Projeto de Casa Inteligente com ESP32 (Luís Estareli e Pedro Inocente)
+## Projeto de Casa Inteligente com ESP32
 ### Descrição:
 
 O objetivo do projeto é integrar um sistema de iluminação via LEDs através da assistente virtual Alexa pelo App no celular. Basta falar, por exemplo: **Alexa, ligar a luz da cozinha**.

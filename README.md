@@ -3,6 +3,8 @@
 ## Projeto de Casa Inteligente com ESP32
 ### Descrição:
 
+![casa-inteligente](https://github.com/Snarloff/casa-inteligente/assets/46792575/7254d9ea-c7b3-4c49-b7f6-1be34bb4f850)
+
 O objetivo do projeto é integrar um sistema de iluminação via LEDs através da assistente virtual Alexa pelo App no celular. Basta falar, por exemplo: **Alexa, ligar a luz da cozinha**.
 
 **Atualização:** Foi integrado no projeto o protocolo MQTT onde, através do aplicativo [MQTT Dash](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=pt_BR&gl=US), é possível ascender as lâmpadas e controlar as intensidades das mesmas com o envio de PWM aos Leds.
